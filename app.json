@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "닮은 패션 연예인 찾기",
+    "slug": "fashiontestapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "packagerOpts": {
+      "port": 53114
+    },
+    "ios": {
+      "bundleIdentifier": "com.jjt4515.fashionstyletest",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.jjt4515.fashionstyletest",
+      "versionCode": 2,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
