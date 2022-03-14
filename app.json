@@ -20,7 +20,7 @@
       "favicon": "./assets/icon.png"
     },
     "packagerOpts": {
-      "port": 53114
+      "port": 58736
     },
     "ios": {
       "bundleIdentifier": "com.jjt4515.fashionstyletest",
@@ -29,11 +29,14 @@
     },
     "android": {
       "package": "com.jjt4515.fashionstyletest",
-      "versionCode": 2,
+      "versionCode": 3,
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE"
-      ]
+      ],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1870519677513892~3808123152"
+      }
     }
   }
 }
